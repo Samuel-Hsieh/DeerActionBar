@@ -13,7 +13,7 @@ import java.util.Locale;
 /**
  * Created by samuel_hsieh on 2017/9/14.
  */
-public class ActionBarTitleColorHelper {
+public class TitleColorHelper {
 
     public static Spanned setColor(Context context, String title, int colorResId, Theme theme) {
         Spanned htmlString = null;

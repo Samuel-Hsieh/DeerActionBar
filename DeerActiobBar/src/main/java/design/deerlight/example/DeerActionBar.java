@@ -1,7 +1,6 @@
 package design.deerlight.example;
 
 import android.content.Context;
-import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.support.v7.app.ActionBar;
 import android.text.Spanned;
@@ -41,11 +40,11 @@ public class DeerActionBar {
         }
 
         public Maker setTitleColor(int colorResId, Theme theme) {
-            Spanned htmlString = ActionBarTitleColorHelper.setColor(context, factor.title, colorResId, theme);
+            Spanned htmlString = TitleColorHelper.setColor(context, factor.title, colorResId, theme);
             if (htmlString != null) {
                 factor.htmlString = htmlString;
             } else {
-                Log.d(TAG, "ActionBarTitleColorHelper return null : htmlString == " + htmlString);
+                Log.d(TAG, "TitleColorHelper return null : htmlString == " + htmlString);
             }
             return this;
         }

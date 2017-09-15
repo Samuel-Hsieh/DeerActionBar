@@ -5,7 +5,7 @@
 
 簡單方便設定ActionBar的標題、標題顏色和背景顏色
 
-DeerActionBar can easy to set title, title's color, and background color on actionBar.
+DeerActionBar can easy to set title, title's color, and background color on ActionBar.
 
 <h2>How do I use it?</h2>
 

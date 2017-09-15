@@ -12,9 +12,10 @@ DeerActionBar can easy to set title, title's color, and background color on Acti
 <h3>Setup</h3>
 
 On the bulid.gradle
+
 ```gradle
 repositories {
-  maven { url  "https://dl.bintray.com/medathsieh/AndroidLib" }
+    jcenter()
 }
 ```
 

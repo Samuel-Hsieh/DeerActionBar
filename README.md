@@ -20,7 +20,7 @@ repositories {
 
 ```gradle
 dependencies {
-  compile 'com.samuelhsieh:DeerActiobBar:1.0.0'
+  compile 'com.samuelhsieh:DeerActiobBar:1.0.1'
 }
 ```
 
